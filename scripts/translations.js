@@ -200,7 +200,7 @@ window.SITE_TRANSLATIONS = {
 		footerAddress: 'Saint Pier Giorgio Frassati, O.P. Building, University of Santo Tomas, España Boulevard, Manila, Pilipinas',
 		footerDescription: 'Ang UST SITE (Society of Information Technology Enthusiasts) mao ang opisyal nga academic ug parent student organization alang sa Information Technology department sa University of Santo Tomas.',
 		currentLanguage: 'Cebuano',
-		homeTitle: 'Katilingban sa mga<br>Mahilig sa<br>Information<br>Technology',
+		homeTitle: 'Society of<br>Information<br>Technology<br>Enthusiasts',
 		homeDescription: 'Ang organisasyon sa mga estudyante gikan sa Department of Information Technology sa UST College of Information and Computing Sciences',
 		aboutSite: 'Mahitungod sa SITE',
 		aboutAcademics: 'Mahitungod sa Academics ug Research',
