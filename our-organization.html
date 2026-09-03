@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="organization-page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the Society of Information Technology Enthusiasts, explore SITE's community, board of directors, and ways to connect at the University of Santo Tomas.">
+    <meta name="author" content="Society of Information Technology Enthusiasts">
+    <meta name="robots" content="index, follow">
+    <title>Our Organization | SITE UST</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Our Organization | SITE UST">
+    <meta property="og:description" content="Meet SITE's community, board of directors, and student organization at the University of Santo Tomas.">
+    <meta property="og:image" content="assets/icons/sitelogo-white.svg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Our Organization | SITE UST">
+    <meta name="twitter:description" content="Meet SITE's community, board of directors, and student organization at the University of Santo Tomas.">
+    <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"AboutPage","name":"Our Organization | SITE UST","description":"Meet the Society of Information Technology Enthusiasts at the University of Santo Tomas.","isPartOf":{"@type":"Organization","name":"Society of Information Technology Enthusiasts","alternateName":"UST SITE"}}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/translations.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+</head>
+<body class="organization-page page-transition-in" id="top">
+    <dialog class="language-dialog" aria-labelledby="language-dialog-title">
+        <h2 id="language-dialog-title" data-i18n="languageTitle">Your language, your SITE</h2>
+        <p data-i18n="languagePrompt">It looks like you are visiting from Manila, Philippines. Would you like to view our site in Filipino-Tagalog (PH)?</p>
+        <div class="language-dialog__choice">
+            <button class="button button--dark" type="button" data-language-confirm><span class="material-symbols-outlined" aria-hidden="true">check</span><span data-i18n="languageConfirm">Yes</span></button>
+            <div>
+                <label class="language-dialog__select-label" for="language-select" data-i18n="languageSelectLabel">Language</label>
+                <select class="language-dialog__select" id="language-select" data-language-select>
+                    <option value="en" data-i18n="languageEnglish">English</option>
+                    <option value="tl" data-i18n="languageFilipino">Filipino-Tagalog</option>
+                    <option value="ceb" data-i18n="languageCebuanoName">Filipino-Cebuano</option>
+                </select>
+            </div>
+        </div>
+    </dialog>
+    <header class="site-header">
+        <a class="site-header__brand" href="index.html" aria-label="SITE home">
+            <img src="assets/icons/sitelogo-white.svg" alt="SITE">
+        </a>
+        <nav class="site-header__nav" aria-label="Main navigation">
+            <a href="academics-research.html" data-i18n="navStudypal">Studypal</a>
+            <a href="academics-research.html" data-i18n="navQuizmix">Quizmix</a>
+            <a href="our-organization.html" data-i18n="navPaturo">Paturo</a>
+        </nav>
+        <a class="button button--accent site-header__frontdesk" href="#contact">
+            <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+            <span data-i18n="frontdesk">Go to Frontdesk</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+            <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+        </button>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav aria-label="Mobile navigation">
+            <a href="academics-research.html" data-i18n="navStudypal">Studypal</a>
+            <a href="academics-research.html" data-i18n="navQuizmix">Quizmix</a>
+            <a href="our-organization.html" data-i18n="navPaturo">Paturo</a>
+        </nav>
+        <a class="button button--outline" href="https://github.com/jaredandrelc">
+            <span class="material-symbols-outlined" aria-hidden="true">arrow_outward</span>
+            <span data-i18n="frontdesk">Go to Frontdesk</span>
+        </a>
+    </div>
+
+    <div class="page-transition" aria-hidden="true"></div>
+
+    <main>
+        <section class="organization-hero" aria-labelledby="organization-title">
+            <div class="organization-hero__content">
+                <h1 id="organization-title" data-i18n="ourOrganization" data-i18n-html>Our<br>Organization</h1>
+                <p data-i18n="orgDescription">The student organization of the Department of Information Technology in UST College of Information and Computing Sciences</p>
+                <a class="button button--light" href="#contact"><span data-i18n="visitFrontdesk">Go to SITE Frontdesk</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_outward</span></a>
+            </div>
+            <a class="organization-hero__next" href="#top" aria-label="Scroll to top">
+                <span class="material-symbols-outlined" aria-hidden="true">arrow_upward</span>
+            </a>
+        </section>
+
+        <section class="organization-values" id="values" aria-labelledby="values-title">
+            <div class="organization-values__message">
+                <h2 id="values-title" data-i18n="orgTagline" data-i18n-html>Together, we<br>can keep<br>student life<br>thriving,<br>balanced, and<br>memorable<br>for every<br>Thomasian.</h2>
+                <a href="https://github.com/jaredandrelc"><span data-i18n="visitFrontdesk">Go to SITE Frontdesk</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+            </div>
+            <div class="organization-values__visual" aria-label="Campus photos">
+                <img src="assets/images/profile-placeholder.png" alt="Campus photo placeholder">
+                <img src="assets/images/profile-placeholder.png" alt="Campus photo placeholder">
+            </div>
+        </section>
+
+        <section class="organization-community" aria-labelledby="community-title">
+            <h2 id="community-title" data-i18n="orgCommunity">Join our Community</h2>
+            <p data-i18n="orgCommunityCopy">The UST SITE (Society of Information Technology Enthusiasts) is the official academic and parent student organization for the Information Technology department within the University of Santo Tomas. Associated with the College of Information and Computing Sciences (CICS), it fosters student development, technology advocacy, and industry connections.</p>
+            <nav class="organization-community__links" aria-label="Community links">
+                <a href="https://github.com/AJC-0419/StudyPal"><span data-i18n="downloadStudypal">Download Studypal</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                <a href="https://github.com/jaredandrelc/siteorg-quizmix"><span data-i18n="visitQuizmix">Visit Quizmix</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                <a href="https://github.com/jaredandrelc"><span data-i18n="visitFrontdesk">Visit SITE Frontdesk</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+            </nav>
+        </section>
+
+        <section class="organization-board" aria-labelledby="board-title">
+            <h2 id="board-title" data-i18n="orgBoard">Board of Directors</h2>
+            <a class="organization-board__link" href="#contact"><span data-i18n="discoverCommittees">Discover our Committees</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+            <div class="organization-board__grid">
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Nikki Grace Alcarde</h3><p data-i18n="president">President</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Nicole Alcantara</h3><p data-i18n="executiveVicePresident">Executive Vice President</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Jeymie Cassandra Bitanga</h3><p data-i18n="executiveSecretary">Executive Secretary</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Alyssa Pauline Noche</h3><p data-i18n="vpAcademicsAndResearch">VP for Academics and Research</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Karl Johann Trillana</h3><p data-i18n="vpAuditAndLogistics">VP for Audit and Logistics</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Trine Lise Morales</h3><p data-i18n="vpCommunityDevelopment">VP for Community Development</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Prince Zamora</h3><p data-i18n="vpDocumentation">VP for Documentation and Online Relations</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Mari Beatrice Cancio</h3><p data-i18n="vpCreatives">VP for Creatives</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Maria Camille Peralta</h3><p data-i18n="vpExternalAffairs">VP for External Affairs</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Rafaela Narido</h3><p data-i18n="vpFinance">VP for Finance</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>King Marvin Jacinto Jr.</h3><p data-i18n="vpSocioCulturalMarketing">VP for Socio-Cultural Marketing</p><small>AY 2025-2026</small></div></article>
+                <article class="board-member"><img src="assets/images/profile-placeholder.png" alt=""><div><h3>Fink Ellaline</h3><p data-i18n="vpPublicity">VP for Publicity</p><small>AY 2025-2026</small></div></article>
+            </div>
+        </section>
+
+        <section class="organization-contact" id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title" data-i18n="orgContact">Contact us</h2>
+            <p data-i18n="orgContactCopy">Got questions, ideas, or looking to collaborate? Connect with the University of Santo Tomas’ Society of Information Technology Enthusiasts (UST SITE) through any of our official channels below, or visit our office at the Blessed Pier Giorgio Frassati, O.P. Building—our team is always ready to plug you into the network.</p>
+            <nav aria-label="Contact links">
+                <a href="https://www.facebook.com/ustsite/"><span data-i18n="facebookMessenger">Facebook Messenger</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+                <a href="mailto:site@ust.edu.ph"><span data-i18n="officialSiteGmail">Official SITE Gmail</span> <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span></a>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__top">
+            <div class="site-footer__identity">
+                <img src="assets/icons/sitelogo-white.svg" alt="SITE">
+                <p data-i18n="footerAddress">Saint Pier Giorgio Frassati, O.P. Building, University of Santo Tomas, España Boulevard, Manila, Philippines</p>
+            </div>
+            <button class="language-switcher" type="button"><span class="material-symbols-outlined" aria-hidden="true">language</span><span data-i18n="currentLanguage">English</span></button>
+        </div>
+        <div class="site-footer__links">
+            <p data-i18n="footerDescription">The UST SITE (Society of Information Technology Enthusiasts) is the official academic and parent student organization for the Information Technology department within the University of Santo Tomas.</p>
+            <nav aria-label="Footer resources"><a href="#contact"><span data-i18n="visitFrontdesk">SITE Frontdesk</span></a><a href="#contact"><span data-i18n="goPaturo">SITE Paturo</span></a></nav>
+            <nav aria-label="Footer pages"><a href="our-organization.html"><span data-i18n="aboutSiteFooter">About SITE</span></a><a href="academics-research.html"><span data-i18n="aboutStudypal">About Studypal</span></a></nav>
+        </div>
+        <div class="site-footer__bottom"><span></span><a href="mailto:site@ust.edu.ph" data-i18n="feedbackBugreport">Feedback &amp; Bugreport</a></div>
+    </footer>
+</body>
+</html>
